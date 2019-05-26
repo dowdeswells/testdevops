@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsolePostgres", "ConsolePostgres\ConsolePostgres.csproj", "{2CF316B0-68B1-4BE6-9A25-4753F093B1F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastucture", "Infrastucture\Infrastucture.csproj", "{9ADAB0C1-9C89-47F1-A05D-A608FD9A26BE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2CF316B0-68B1-4BE6-9A25-4753F093B1F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CF316B0-68B1-4BE6-9A25-4753F093B1F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CF316B0-68B1-4BE6-9A25-4753F093B1F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CF316B0-68B1-4BE6-9A25-4753F093B1F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9ADAB0C1-9C89-47F1-A05D-A608FD9A26BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9ADAB0C1-9C89-47F1-A05D-A608FD9A26BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9ADAB0C1-9C89-47F1-A05D-A608FD9A26BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9ADAB0C1-9C89-47F1-A05D-A608FD9A26BE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

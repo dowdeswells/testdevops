@@ -30,11 +30,11 @@ steps:
       arguments: '--configuration $(buildConfiguration)'      
 
   - task: PublishBuildArtifacts@1
-    
-  - task: DotNetCoreCLI@2
+
+  - task: AzureRmWebAppDeployment@4
     inputs:
-      command: publish
-      publishWebProjects: true
-      arguments: '--configuration $(BuildConfiguration) --output $(Build.ArtifactStagingDirectory)'
-      zipAfterPublish: true
-      workingDirectory: IdeasWebApi
+      ConnectionType: 'AzureRM'
+      azureSubscription: 'Visual Studio Enterprise with MSDN(307e5a26-2005-49e7-8de1-ed32008bf357)'
+      appType: 'webApp'
+      WebAppName: 'sido-webapp'
+      packageForLinux: '$(System.DefaultWorkingDirectory)/**/*.zip'
